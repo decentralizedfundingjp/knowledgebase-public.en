@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Current",
+    "description": "The label for version"
+  },
+  "sidebar.docs.category.はじめに": {
+    "message": "Getting Started",
+    "description": "The label for category はじめに in sidebar docs"
+  },
+  "sidebar.docs.category.モデル": {
+    "message": "Models",
+    "description": "The label for category Models in sidebar docs"
+  },
+  "sidebar.docs.category.事例研究": {
+    "message": "Case Studies",
+    "description": "The label for category Case Studies in sidebar docs"
+  },
+  "sidebar.docs.category.ブロックチェーン": {
+    "message": "Blockchain",
+    "description": "The label for category Blockchain in sidebar docs"
+  },
+  "sidebar.docs.category.課題": {
+    "message": "Challenges",
+    "description": "The label for category Challenges in sidebar docs"
+  },
+  "sidebar.docs.category.ビジョン": {
+    "message": "Vision",
+    "description": "The label for category Vision in sidebar docs"
+  },
+  "what-is-decentralized-funding": {
+    "message": "What is Decentralized Funding",
+    "description": "The title for the what-is-decentralized-funding page"
+  },
+  "what-is-decentralized-funding.description": {
+    "message": "Explains the basic concepts and characteristics of decentralized funding",
+    "description": "The description for the what-is-decentralized-funding page"
+  },
+  "はじめに.title": {
+    "message": "Getting Started",
+    "description": "The title for the はじめに category index page"
+  },
+  "はじめに.description": {
+    "message": "Overview of decentralized funding and how to use this guidebook",
+    "description": "The description for the はじめに category index page"
+  },
+  "モデル.title": {
+    "message": "Models",
+    "description": "The title for the モデル category index page"
+  },
+  "モデル.description": {
+    "message": "Various decentralized funding models and their applications",
+    "description": "The description for the モデル category index page"
+  }
+} 

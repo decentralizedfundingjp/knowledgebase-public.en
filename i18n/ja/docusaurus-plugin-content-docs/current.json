@@ -1,0 +1,78 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.はじめに": {
+    "message": "はじめに",
+    "description": "The label for category はじめに in sidebar docs"
+  },
+  "sidebar.docs.category.はじめに.link.generated-index.title": {
+    "message": "はじめに",
+    "description": "The generated-index page title for category はじめに in sidebar docs"
+  },
+  "sidebar.docs.category.はじめに.link.generated-index.description": {
+    "message": "分散型資金調達の概要と本ガイドブックの使い方",
+    "description": "The generated-index page description for category はじめに in sidebar docs"
+  },
+  "sidebar.docs.category.モデル": {
+    "message": "モデル",
+    "description": "The label for category モデル in sidebar docs"
+  },
+  "sidebar.docs.category.モデル.link.generated-index.title": {
+    "message": "モデル",
+    "description": "The generated-index page title for category モデル in sidebar docs"
+  },
+  "sidebar.docs.category.モデル.link.generated-index.description": {
+    "message": "様々な分散型資金調達モデルとその応用について",
+    "description": "The generated-index page description for category モデル in sidebar docs"
+  },
+  "sidebar.docs.category.事例研究": {
+    "message": "事例研究",
+    "description": "The label for category 事例研究 in sidebar docs"
+  },
+  "sidebar.docs.category.事例研究.link.generated-index.title": {
+    "message": "事例研究",
+    "description": "The generated-index page title for category 事例研究 in sidebar docs"
+  },
+  "sidebar.docs.category.事例研究.link.generated-index.description": {
+    "message": "分散型資金調達の実例と実装例",
+    "description": "The generated-index page description for category 事例研究 in sidebar docs"
+  },
+  "sidebar.docs.category.ブロックチェーン": {
+    "message": "ブロックチェーン",
+    "description": "The label for category ブロックチェーン in sidebar docs"
+  },
+  "sidebar.docs.category.ブロックチェーン.link.generated-index.title": {
+    "message": "ブロックチェーン実装",
+    "description": "The generated-index page title for category ブロックチェーン in sidebar docs"
+  },
+  "sidebar.docs.category.ブロックチェーン.link.generated-index.description": {
+    "message": "ブロックチェーン技術と分散型資金調達への実装",
+    "description": "The generated-index page description for category ブロックチェーン in sidebar docs"
+  },
+  "sidebar.docs.category.課題": {
+    "message": "課題",
+    "description": "The label for category 課題 in sidebar docs"
+  },
+  "sidebar.docs.category.課題.link.generated-index.title": {
+    "message": "課題",
+    "description": "The generated-index page title for category 課題 in sidebar docs"
+  },
+  "sidebar.docs.category.課題.link.generated-index.description": {
+    "message": "分散型資金調達における課題と考慮点",
+    "description": "The generated-index page description for category 課題 in sidebar docs"
+  },
+  "sidebar.docs.category.ビジョン": {
+    "message": "ビジョン",
+    "description": "The label for category ビジョン in sidebar docs"
+  },
+  "sidebar.docs.category.ビジョン.link.generated-index.title": {
+    "message": "ビジョン",
+    "description": "The generated-index page title for category ビジョン in sidebar docs"
+  },
+  "sidebar.docs.category.ビジョン.link.generated-index.description": {
+    "message": "長期的なビジョンと将来の展望",
+    "description": "The generated-index page description for category ビジョン in sidebar docs"
+  }
+}
