@@ -1,10 +1,16 @@
 ---
-title: クアドラティックファンディング（QF）
+title: Quadratic Funding（QF）
 sidebar_position: 2
-description: クアドラティックファンディングの概要、実装手順、ツール、成功事例について説明します。
+description: Quadratic Funding（QF）の仕組みと特徴について説明します
 ---
 
-# クアドラティックファンディング（QF）
+# Quadratic Funding（QF）
+
+Quadratic Funding（QF）は、寄付者の意思を反映しながら、より公平な資金分配を実現する仕組みです。
+
+<div style={{textAlign: 'center'}}>
+  <img src="/img/models/qfoverview.jpg" alt="Quadratic Fundingの概要" style={{maxWidth: '100%'}} />
+</div>
 
 #### 概要
 
@@ -69,15 +75,31 @@ description: クアドラティックファンディングの概要、実装手�
    * 資金テーマ（環境、子どもの貧困、デジタル公共財など）と対象地域を明確化
    * マッチングファンドを形成
 
+<div style={{textAlign: 'center'}}>
+  <img src="/img/models/qfstep1.jpg" alt="マッチングプールの準備" style={{maxWidth: '100%'}} />
+</div>
+
 2. 申請者募集
    * 申請ガイドラインを設定し、申請団体を募集
+
+<div style={{textAlign: 'center'}}>
+  <img src="/img/models/qfstep2.jpg" alt="申請者募集" style={{maxWidth: '100%'}} />
+</div>
 
 3. 寄付の収集
    * クラウドファンディング的な形式で一般からの寄付を集める
    * 寄付者が価値を感じる団体に自由な金額で寄付可能
 
+<div style={{textAlign: 'center'}}>
+  <img src="/img/models/qfstep3.jpg" alt="寄付の収集" style={{maxWidth: '100%'}} />
+</div>
+
 4. マッチングファンドの配分
    * 寄付の平方根から計算された重み付け金額に基づいて、各受給者にマッチングファンドを配分
+
+<div style={{textAlign: 'center'}}>
+  <img src="/img/models/qfstep4.jpg" alt="マッチングファンドの配分" style={{maxWidth: '100%'}} />
+</div>
 
 ***
 

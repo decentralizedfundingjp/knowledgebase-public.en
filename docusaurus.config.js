@@ -50,6 +50,17 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
+          editCurrentVersion: false,
+          editLocalizedFiles: false,
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: 'Current',
+              path: '',
+            },
+          },
         },
         blog: false,
         theme: {
@@ -129,6 +140,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  staticDirectories: ['static'],
 };
 
 export default config;

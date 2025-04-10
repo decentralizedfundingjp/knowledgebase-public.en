@@ -1,10 +1,16 @@
 ---
-title: 委任型審査会
-sidebar_position: 5
-description: 委任型審査会の概要、実装手順、ツール、成功事例について説明します。
+title: 委任型審査会（DDA）
+sidebar_position: 4
+description: 委任型審査会（DDA）の仕組みと特徴について説明します
 ---
 
-# 委任型審査会
+# 委任型審査会（DDA）
+
+委任型審査会（DDA）は、専門家による審査とコミュニティの意思決定を組み合わせた資金配分モデルです。
+
+<div style={{textAlign: 'center'}}>
+  <img src="/img/models/ddamodel.jpg" alt="委任型審査会（DDA）の概要" style={{maxWidth: '100%'}} />
+</div>
 
 #### 概要
 

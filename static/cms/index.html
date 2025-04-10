@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Manager</title>
+</head>
+<body>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    CMS.init({
+      config: {
+        backend: {
+          name: 'test-repo',
+        },
+        load_config_file: false,
+        media_folder: 'static/img',
+        public_folder: '/img',
+        collections: [{
+          name: 'docs',
+          label: 'ドキュメント',
+          folder: 'docs',
+          create: true,
+          delete: true,
+          extension: 'md',
+          format: 'frontmatter',
+          fields: [
+            {label: 'タイトル', name: 'title', widget: 'string'},
+            {label: '説明', name: 'description', widget: 'text'},
+            {label: 'スラッグ', name: 'slug', widget: 'string', required: false},
+            {label: 'サイドバー', name: 'sidebar_label', widget: 'string', required: false},
+            {label: '本文', name: 'body', widget: 'markdown'}
+          ]
+        }]
+      }
+    });
+  </script>
+</body>
+</html> 

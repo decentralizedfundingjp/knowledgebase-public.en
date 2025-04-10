@@ -6,6 +6,12 @@ description: コミュニティ投票の概要、実装手順、ツール、成�
 
 # コミュニティ投票
 
+コミュニティ投票は、コミュニティメンバーが直接プロジェクトを評価し、資金配分を決定する仕組みです。
+
+<div style={{textAlign: 'center'}}>
+  <img src="/img/models/communityvoting.jpg" alt="コミュニティ投票の概要" style={{maxWidth: '100%'}} />
+</div>
+
 #### 概要
 
 **実施主体**
