@@ -14,15 +14,11 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p className={styles.heroDescription}>
-          私たちは、社会課題の解決に向けて、より効果的で透明性の高い資金分配の仕組みを提案します。
-          コミュニティ主導の意思決定と、ブロックチェーン技術を活用した新しい形の資金分配を実現します。
-        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/getting-started">
-            知識ベースを見る
+            Getting Started!
           </Link>
         </div>
       </div>
