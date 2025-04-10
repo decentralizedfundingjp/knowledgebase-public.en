@@ -2,8 +2,6 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -16,11 +14,15 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={styles.heroDescription}>
+          私たちは、社会課題の解決に向けて、より効果的で透明性の高い資金分配の仕組みを提案します。
+          コミュニティ主導の意思決定と、ブロックチェーン技術を活用した新しい形の資金分配を実現します。
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/what-is-decentralized-funding">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/getting-started">
+            知識ベースを見る
           </Link>
         </div>
       </div>
@@ -32,12 +34,9 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={siteConfig.title}
+      description={siteConfig.tagline}>
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }

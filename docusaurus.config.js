@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Knowledge Base',
-  tagline: '分散型資金調達の知識ベース',
+  tagline: '社会課題解決のための分散/参加型資金分配',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,10 +74,6 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Knowledge Base',
-        logo: {
-          alt: 'Knowledge Base Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'docSidebar',
@@ -99,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/what-is-decentralized-funding',
+                to: '/getting-started',
               },
             ],
           },
@@ -107,16 +103,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/decentralizedfundingjp/knowledgebase-public',
               },
             ],
           },
@@ -124,8 +112,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Getting Started',
+                href: 'http://localhost:3000/getting-started',
               },
             ],
           },
