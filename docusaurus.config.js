@@ -15,15 +15,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://knowledgebase-public.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-org', // Usually your GitHub org/user name.
-  projectName: 'knowledgebase', // Usually your repo name.
+  organizationName: 'decentralizedfundingjp', // Usually your GitHub org/user name.
+  projectName: 'knowledgebase-public', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
@@ -50,10 +50,6 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          showLastUpdateTime: true,
-          showLastUpdateAuthor: false,
-          editCurrentVersion: false,
-          editLocalizedFiles: false,
           lastVersion: 'current',
           versions: {
             current: {
@@ -61,8 +57,9 @@ const config = {
               path: '',
             },
           },
+          includeCurrentVersion: true,
+          editUrl: 'https://github.com/decentralizedfundingjp/knowledgebase-public/edit/master/',
         },
-        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -141,6 +138,14 @@ const config = {
       },
     }),
   staticDirectories: ['static'],
+  // Git repository information
+  customFields: {
+    repository: {
+      url: 'https://github.com/decentralizedfundingjp/knowledgebase-public',
+      branch: 'master',
+    },
+  },
+  trailingSlash: false,
 };
 
 export default config;

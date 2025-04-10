@@ -5,9 +5,10 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   docs: [
+    'getting-started',
     'what-is-decentralized-funding',
-    'benefits-implementation',
     'introduction',
+    'benefits-implementation',
     'guidebook-purpose',
     'target-readers',
     'guidebook-usage',
@@ -60,6 +61,7 @@ const sidebars = {
         'notes/vision-long-term',
       ],
     },
+    'contribution-guide',
   ],
 };
 
