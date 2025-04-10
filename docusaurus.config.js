@@ -112,8 +112,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Getting Started',
-                href: 'http://localhost:3000/getting-started',
+                label: '英語版',
+                href: 'https://decentralizedfunding-en.netlify.app/getting-started',
               },
             ],
           },
