@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Knowledge Base',
-  tagline: '社会課題解決のための分散/参加型資金分配',
+  tagline: 'Decentralized funding for social impact',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -104,7 +104,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/decentralizedfundingjp/knowledgebase-public',
+                href: 'https://github.com/decentralizedfundingjp/knowledgebase-public.en',
               },
             ],
           },
@@ -112,8 +112,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: '英語版',
-                href: 'https://decentralizedfunding-en.netlify.app/getting-started',
+                label: 'Japanese version',
+                href: 'https://decentralizedfunding.netlify.app/getting-started',
               },
             ],
           },
@@ -129,7 +129,7 @@ const config = {
   // Git repository information
   customFields: {
     repository: {
-      url: 'https://github.com/decentralizedfundingjp/knowledgebase-public',
+      url: 'https://github.com/decentralizedfundingjp/knowledgebase-public.en',
       branch: 'master',
     },
   },
