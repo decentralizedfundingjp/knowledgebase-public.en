@@ -4,9 +4,9 @@ sidebar_position: 1
 description: Explains the purpose and overview of the Decentralized Funding Knowledge Base
 ---
 
-# Getting Started
+# Getting Startedtest
 
-## About This Knowledge Base
+## About This Knowledge Basetest
 
 This knowledge base aims to aggregate information about Decentralized Funding and provide it in an accessible format for everyone. Decentralized Funding is gaining attention as a new form of fundraising that utilizes blockchain technology.
 
