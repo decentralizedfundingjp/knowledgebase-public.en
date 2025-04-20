@@ -58,7 +58,7 @@ const config = {
             },
           },
           includeCurrentVersion: true,
-          editUrl: 'https://github.com/decentralizedfundingjp/knowledgebase-public/edit/master/',
+          editUrl: 'https://github.com/decentralizedfundingjp/knowledgebase-public.en/edit/master/',
         },
         theme: {
           customCss: './src/css/custom.css',
